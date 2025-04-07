@@ -18,6 +18,5 @@ class Customer extends Model
         'email',
         'cell',
         'birthDate',
-        'status'
     ];
 }

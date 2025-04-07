@@ -3,7 +3,6 @@
 namespace App\Modules\Customer\Infrastructure\Repositories\Eloquent;
 
 use App\Modules\Customer\Domain\Entities\Customer;
-use App\Modules\Customer\Domain\Enums\Status;
 use App\Modules\Customer\Domain\Repositories\ICustomerRepository;
 use App\Modules\Infrastructure\Models\Customer as Model;
 use App\ValueObjects\Cell;

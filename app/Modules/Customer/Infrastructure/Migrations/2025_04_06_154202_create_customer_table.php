@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('email', 255);
             $table->string('cell', 15);
             $table->date('birthDate');
-            $table->smallInteger('status');
             $table->softDeletes();
             $table->timestamps();
         });
